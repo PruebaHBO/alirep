@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #0906c4;
-		background-image: url("images/portada.jpg"), -moz-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
-		background-image: url("images/portada.jpg"), -webkit-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
-		background-image: url("images/portada.jpg"), -ms-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
-		background-image: url("images/portada.jpg"), linear-gradient(180deg, #4267b2 20%, #f80000 80%);
+		background-image: url("images/"), -moz-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
+		background-image: url("images/"), -webkit-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
+		background-image: url("images/"), -ms-linear-gradient(90deg, #4267b2 20%, #f80000 80%);
+		background-image: url("images/"), linear-gradient(180deg, #4267b2 20%, #f80000 80%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3053,6 +3053,7 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		
 	}
 
 		#header h1 {
@@ -3066,6 +3067,8 @@ input, select, textarea {
 
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
+			background-image: url("images/fondoheader.jpg");
+			background-size: cover;
 		}
 
 			#header.alt h1 {
@@ -3108,6 +3111,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 4em 0.1em 4em ;
+				
 			}
 
 				#header.alt {
@@ -3120,6 +3124,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 3em 0.1em 3em ;
+				
 			}
 
 				#header.alt {
@@ -3132,6 +3137,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 2em 0.1em 2em ;
+			
 			}
 
 				#header p {
@@ -3157,6 +3163,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
+				
 			}
 
 				#header.alt {
@@ -3169,6 +3176,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2.5em 1em 0.1em 1em ;
+				
 			}
 
 				#header.alt {
